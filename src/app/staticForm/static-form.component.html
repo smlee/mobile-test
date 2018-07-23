@@ -1,0 +1,5 @@
+<div class="form__page" *ngFor="let page of pages">
+  <div class="form__field" *ngFor="let field of page.fields"  [ngStyle]="field.styles">
+    <input>
+  </div>
+</div>

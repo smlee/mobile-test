@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host 10.8.18.106 --port 4220 --disableHostCheck",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:gh": "ng build --prod --base-href \"https://smlee.github.io/mobile-test/\"",
+    "ngh": "ngh"
   },
   "private": true,
   "dependencies": {
